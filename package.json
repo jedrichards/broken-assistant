@@ -1,7 +1,7 @@
 {
   "name": "broken-assistant",
-  "homepage": "",
-  "version": "0.1.0",
+  "homepage": "https://github.com/sketch-hq/sketch-assistant-template",
+  "version": "0.2.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
