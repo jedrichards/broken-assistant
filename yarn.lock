@@ -498,25 +498,40 @@
     "@sketch-hq/sketch-file-format-ts" "5.0.0"
     "@types/json-schema" "7.0.4"
 
-"@sketch-hq/sketch-assistant-utils@5.0.0-next.18":
-  version "5.0.0-next.18"
-  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-utils/-/sketch-assistant-utils-5.0.0-next.18.tgz#446f0490072a51427188443eedcd0786a1480eb0"
-  integrity sha512-+NMkGpw3L9f/KdZ+/nGlZZwNq6oNQmHM21OB/skgLuENuloLaGI+owvCnjgB/N+tv1OmHwVOkZGEINJUE6Q9FA==
+"@sketch-hq/sketch-assistant-types@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-types/-/sketch-assistant-types-6.0.0.tgz#9b9f936db4f56a8934e68a8871c66471d1a257b4"
+  integrity sha512-o8N8AWGnyOLZzmqZXgz9dfyDCsvvOUVOHjBnJoaKxdzhUXyD6JPtLJYllxLD2NdKX7OXV8BanotfdqjKs0p3yA==
+  dependencies:
+    "@schemastore/package" "0.0.5"
+    "@sketch-hq/sketch-file-format-ts" "5.1.1"
+    "@types/json-schema" "7.0.4"
+
+"@sketch-hq/sketch-assistant-utils@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-utils/-/sketch-assistant-utils-6.0.0.tgz#81f89d82f3f9ea10e6e4b1ddb729c6783f1fcc85"
+  integrity sha512-G3C+3W1WgQIq4yni42aXM00tb2D0udUvlbO8MepDCYPF71jUTwWucoKZBg6iRSDKEFGHqxpdd3UGJZ4olQey1Q==
   dependencies:
     "@json-schema-spec/json-pointer" "0.1.2"
-    "@sketch-hq/sketch-assistant-types" "5.0.0-next.18"
+    "@sketch-hq/sketch-assistant-types" "6.0.0"
     ajv "6.12.2"
     humps "2.0.1"
     mem "6.1.0"
     node-stream-zip "1.10.1"
     object-hash "2.0.3"
     p-map "4.0.0"
+    p-timeout "3.2.0"
     probe-image-size "5.0.0"
 
 "@sketch-hq/sketch-file-format-ts@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-file-format-ts/-/sketch-file-format-ts-5.0.0.tgz#df5e1a44ea3a08863922ef82b45d52362c2066d5"
   integrity sha512-O3wtaPaT5PGP43Klw31D22867m77DNvnq97NfDnc//X+a8STqAqXSyHSkypZ6Ygeg4lHygk192EEpH4HDyRWEA==
+
+"@sketch-hq/sketch-file-format-ts@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-file-format-ts/-/sketch-file-format-ts-5.1.1.tgz#53b7cdb7ce034486a412791f88061329941a37ee"
+  integrity sha512-VTRCUeggr+fMle7sNtQw+PAe2fRoVL35n+i+Q8etuwJXPPcz9jW08XytlFtQE+qfnNWLrryCGY/SS7Rm9Qz3GA==
 
 "@types/babel__core@^7.1.7":
   version "7.1.7"
@@ -3874,6 +3889,13 @@ p-map@4.0.0:
   integrity sha512-/bjOqmgETBYB5BoEeGVea8dmvHb2m9GLy1E9W43yeyfP6QQCZGFNa+XRceJEuDB6zqr+gKpIAmlLebMpykw/MQ==
   dependencies:
     aggregate-error "^3.0.0"
+
+p-timeout@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-3.2.0.tgz#c7e17abc971d2a7962ef83626b35d635acf23dfe"
+  integrity sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==
+  dependencies:
+    p-finally "^1.0.0"
 
 p-try@^2.0.0:
   version "2.2.0"
